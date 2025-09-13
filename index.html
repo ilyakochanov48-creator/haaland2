@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Профиль Эрлинга Холланда</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #121212;
+        color: #eee;
+        margin: 0;
+        padding: 20px;
+      }
+      .profile {
+        max-width: 600px;
+        background: #1e1e1e;
+        border-radius: 8px;
+        padding: 20px;
+        margin: auto;
+        box-shadow: 0 0 10px #0a9ef4;
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      img {
+        width: 150px;
+        height: 220px;
+        border-radius: 8px;
+        flex-shrink: 0;
+        box-shadow: 0 0 8px #0a9ef4;
+        object-fit: cover;
+      }
+      .info {
+        flex-grow: 1;
+      }
+      h1 {
+        margin: 0 0 10px;
+        font-size: 28px;
+      }
+      .subtitle {
+        font-size: 14px;
+        color: #8f8f8f;
+        margin-bottom: 15px;
+      }
+      .stats {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+      }
+      .stat {
+        background: #0a9ef4;
+        border-radius: 4px;
+        padding: 10px;
+        flex: 1;
+        text-align: center;
+        margin: 0 5px;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .stat:first-child {
+        margin-left: 0;
+      }
+      .stat:last-child {
+        margin-right: 0;
+      }
+      .about {
+        line-height: 1.5;
+        font-size: 16px;
+      }
+      .footer {
+        margin-top: 20px;
+        font-size: 12px;
+        color: #555;
+        text-align: center;
+      }
+      a {
+        color: #0a9ef4;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <div class="header">
+        <div class="photo">
+          <img src="/img/R.jpeg" alt="картинка" />
+        </div>
+        <div class="info">
+          <h1>Эрлинг Холланд</h1>
+          <div class="subtitle">Футболист • Нападающий</div>
+          <div class="stats">
+            <div class="stat">25 лет</div>
+            <div class="stat">195 см</div>
+            <div class="stat">Ман Сити</div>
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        Эрлинг Браут Холланд (род. 21 июля 2000 г.) — норвежский
+        профессиональный футболист, выступающий на позиции форварда за
+        английский клуб «Манчестер Сити» и сборную Норвегии. Считается одним из
+        лучших игроков в мире, известен скоростью, силой и умением забивать
+        голы, лучший бомбардир сборной Норвегии, обладель требла и рекорда АПЛ
+        по забитым голам за сезон.
+      </div>
+      <div class="footer">
+        Источник:
+        <a href="https://ru.wikipedia.org/wiki/Холланд,_Эрлинг" target="_blank"
+          >Wikipedia</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
